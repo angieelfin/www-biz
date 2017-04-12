@@ -10,7 +10,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import "node_modules/hocus-pocus/hocus-pocus";
+
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

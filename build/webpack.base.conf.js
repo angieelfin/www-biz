@@ -21,6 +21,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
+      'variables': path.resolve(__dirname, '../src/styles/variables.scss'),
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src')
     }
@@ -41,6 +42,8 @@ module.exports = {
         loader: 'vue-loader',
         options: vueLoaderConfig
       },
+
+
       {
         test: /\.js$/,
         loader: 'babel-loader',

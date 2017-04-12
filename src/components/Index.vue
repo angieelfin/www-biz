@@ -1,5 +1,7 @@
 <template>
-  <h1>WWW biz index</h1>
+  <div class="container">
+    <h1>WWW biz index</h1>
+  </div>
 </template>
 
 <script>
@@ -13,8 +15,13 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style scoped lang="scss">
+
+@import '~variables';
+
+
 h1, h2 {
   font-weight: normal;
+  color: $color-black;
 }
 </style>
