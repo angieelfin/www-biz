@@ -15,12 +15,16 @@ export default {
 @import "node_modules/hocus-pocus/hocus-pocus";
 
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+#app, h1, h2, h3, p {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
+
+h1 {
+  font-size: 44px;
+}
+
 </style>

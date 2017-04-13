@@ -1,27 +1,28 @@
 <template>
-  <div class="container">
-    <h1>WWW biz index</h1>
+  <div>
+    <navbar></navbar>
+    <hero></hero>
   </div>
 </template>
 
 <script>
+import navbar from '@/components/navbar.vue'
+import hero from '@/components/hero.vue'
 export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    navbar,
+    hero
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
 @import '~variables';
 
-
-h1, h2 {
-  font-weight: normal;
-  color: $color-black;
-}
 </style>

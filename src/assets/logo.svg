@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 121 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-3585,-597)">
+        <g id="Artboard1" transform="matrix(1.18391,0,0,1.04947,2864.21,0)">
+            <rect x="0" y="0" width="1280" height="800" style="fill:none;"/>
+            <g transform="matrix(0.844657,0,0,6.14861,510.656,553.059)">
+                <g transform="matrix(0.115433,0.0244383,-0.9734,0.110422,115.32,-10.7033)">
+                    <g transform="matrix(-0.0318868,-0.161922,0.999491,-0.00516581,51.8015,159.31)">
+                        <path d="M650.525,456.432L826.365,560.1L804.364,419.09L740.107,508.868L725.269,608.921" style="fill:none;stroke:white;stroke-width:5.91px;"/>
+                    </g>
+                    <g transform="matrix(-0.0318868,-0.161922,0.999491,-0.00516581,51.8015,159.31)">
+                        <path d="M650.095,454.739L725.041,610.288L826.365,560.578" style="fill:none;stroke:white;stroke-width:5.91px;"/>
+                    </g>
+                    <g transform="matrix(-0.0318868,-0.161922,0.999491,-0.00516581,-176.482,161.48)">
+                        <path d="M810.883,647.762L656.075,683.512L586.632,790.075L729.298,838.883L599.169,856.269L586.632,790.075" style="fill:none;stroke:white;stroke-width:5.91px;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,0.162005,0,0)">
+                        <path d="M585.403,139.553L732.278,149.22L638.66,239.784L660.246,370.959L732.278,149.22" style="fill:none;stroke:white;stroke-width:5.91px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.191164,0,0,0.029625,125.484,-12.8343)">
+                    <text x="317.004px" y="696.679px" style="font-family:'OpenSans-Light', 'Open Sans', sans-serif;font-weight:300;font-size:83.958px;fill:none;">Agata</text>
+                    <text x="317.004px" y="780.637px" style="font-family:'OpenSans-Light', 'Open Sans', sans-serif;font-weight:300;font-size:83.958px;fill:none;">Kubiak</text>
+                    <text x="317.004px" y="696.679px" style="font-family:'OpenSans-Light', 'Open Sans', sans-serif;font-weight:300;font-size:83.958px;fill:white;">Agata</text>
+                    <text x="317.004px" y="780.637px" style="font-family:'OpenSans-Light', 'Open Sans', sans-serif;font-weight:300;font-size:83.958px;fill:white;">Kubiak</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
