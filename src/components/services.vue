@@ -1,6 +1,6 @@
 <template>
   <div class="container services">
-    <h1 class="padding-2/1-top">What I can help you with</h1>
+    <h2 class="padding-2/1-top">What I can help you with</h2>
 
     <div class="grid padding-4/1-top">
       <div class="grid-item 1/3">
@@ -23,17 +23,6 @@
 <style scoped lang="scss">
 
 @import '~variables';
-
-h1:after {
-  content: "";
-  background: $color-secondary;
-  display: flex;
-  margin: 0 auto;
-  width: 200px;
-  height: 2px;
-  top: 10px;
-  position: relative;
-}
 
 .services {
   color: $color-text;

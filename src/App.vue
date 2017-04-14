@@ -13,7 +13,7 @@ export default {
 <style lang="scss">
 
 @import "node_modules/hocus-pocus/hocus-pocus";
-
+@import '~variables';
 
 #app, h1, h2, h3, p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -23,8 +23,20 @@ export default {
   text-align: center;
 }
 
-h1 {
-  font-size: 40px;
+h2 {
+  font-size: 2.2em;
+
+  &:after {
+    content: "";
+    background: $color-secondary;
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    height: 2px;
+    top: 10px;
+    position: relative;
+  }
 }
+
 
 </style>
