@@ -6,6 +6,7 @@
     <workProcess></workProcess>
     <about></about>
     <contact></contact>
+    <appFooter></appFooter>
   </div>
 </template>
 
@@ -16,6 +17,8 @@ import services from '@/components/services.vue'
 import workProcess from '@/components/workProcess.vue'
 import about from '@/components/about.vue'
 import contact from '@/components/contact.vue'
+import appFooter from '@/components/appFooter.vue'
+
 export default {
   data () {
     return {
@@ -28,7 +31,8 @@ export default {
     services,
     workProcess,
     about,
-    contact
+    contact,
+    appFooter
   }
 }
 </script>
