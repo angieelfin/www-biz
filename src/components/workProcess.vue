@@ -75,7 +75,7 @@ p {
 }
 
 .process-color-box {
-  background: $color-primary;
+  background: linear-gradient(to right, $color-secondary 0%, $color-primary 100%);
   color: white;
   padding: 7em 0em 3em;
   position: relative;
