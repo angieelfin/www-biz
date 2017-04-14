@@ -29,7 +29,7 @@ h1:after {
   background: $color-secondary;
   display: flex;
   margin: 0 auto;
-  width: 250px;
+  width: 200px;
   height: 2px;
   top: 10px;
   position: relative;
