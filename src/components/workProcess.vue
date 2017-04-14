@@ -1,13 +1,13 @@
 <template>
   <div class="work-process padding-3/1-top">
-    <h1 class="padding-3/1-top">From Sketching to Final Product</h1>
+    <h2 class="padding-3/1-top">From Sketching to Final Product</h2>
     <img src="../assets/iphone-mockup.png" alt="iphone mockup" class="padding-3/1-top">
     <div class="process-color-box">
       <div class="grid grid-center">
         <div class="grid-item 2/5">Going through the design process is extremely important to me - I keep the client involved on every stage of our cooperation to make him satisfied with the final result.</div>
       </div>
     </div>
-    <h1 class="padding-2/1-top">My Work Process</h1>
+    <h2 class="padding-2/1-top">My Work Process</h2>
     <div class="container">
       <div class="grid padding-4/1-top">
         <div class="grid-item 1/3">
@@ -51,17 +51,6 @@
 <style scoped lang="scss">
 
 @import '~variables';
-
-h1:after {
-  content: "";
-  background: $color-secondary;
-  display: flex;
-  margin: 0 auto;
-  width: 200px;
-  height: 2px;
-  top: 10px;
-  position: relative;
-}
 
 h3 {
   color: $color-primary;
