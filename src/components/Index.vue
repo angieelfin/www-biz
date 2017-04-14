@@ -4,6 +4,7 @@
     <hero></hero>
     <services></services>
     <workProcess></workProcess>
+    <about></about>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import navbar from '@/components/navbar.vue'
 import hero from '@/components/hero.vue'
 import services from '@/components/services.vue'
 import workProcess from '@/components/workProcess.vue'
+import about from '@/components/about.vue'
 export default {
   data () {
     return {
@@ -22,7 +24,8 @@ export default {
     navbar,
     hero,
     services,
-    workProcess
+    workProcess,
+    about
   }
 }
 </script>
