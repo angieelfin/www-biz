@@ -1,7 +1,7 @@
 <template>
   <div class="hero padding-2/1-top">
     <img src="../assets/hero-img.svg" alt="devices graphic" class="hero-img">
-    <h1>Web solutions tailored for you</h1>
+    <h1 class="hero-title">Web solutions tailored for you</h1>
     <img src="../assets/iphone-mockup-hero.png" alt="phone mockup" class="hero-phone-img">
   </div>
 </template>
@@ -21,6 +21,10 @@
   height: 640px;
   position: relative;
   top: -70px;
+}
+
+.hero-title {
+  font-size: 44px;
 }
 
 .hero-img {

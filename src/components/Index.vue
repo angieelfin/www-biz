@@ -2,12 +2,14 @@
   <div>
     <navbar></navbar>
     <hero></hero>
+    <services></services>
   </div>
 </template>
 
 <script>
 import navbar from '@/components/navbar.vue'
 import hero from '@/components/hero.vue'
+import services from '@/components/services.vue'
 export default {
   data () {
     return {
@@ -16,7 +18,8 @@ export default {
   },
   components: {
     navbar,
-    hero
+    hero,
+    services
   }
 }
 </script>

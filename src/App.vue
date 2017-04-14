@@ -24,7 +24,7 @@ export default {
 }
 
 h1 {
-  font-size: 44px;
+  font-size: 40px;
 }
 
 </style>
