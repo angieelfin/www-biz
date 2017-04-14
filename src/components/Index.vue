@@ -5,6 +5,7 @@
     <services></services>
     <workProcess></workProcess>
     <about></about>
+    <contact></contact>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import hero from '@/components/hero.vue'
 import services from '@/components/services.vue'
 import workProcess from '@/components/workProcess.vue'
 import about from '@/components/about.vue'
+import contact from '@/components/contact.vue'
 export default {
   data () {
     return {
@@ -25,7 +27,8 @@ export default {
     hero,
     services,
     workProcess,
-    about
+    about,
+    contact
   }
 }
 </script>
