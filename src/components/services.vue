@@ -26,7 +26,7 @@
 
 h1:after {
   content: "";
-  background: #4E62D1;
+  background: $color-secondary;
   display: flex;
   margin: 0 auto;
   width: 250px;
@@ -36,7 +36,7 @@ h1:after {
 }
 
 .services {
-  color: #646464;
+  color: $color-text;
 }
 
 .services-icon {

@@ -12,7 +12,7 @@
 @import '~variables';
 
 .hero {
-  background: url('../assets/hero-bg.png') no-repeat, linear-gradient(to right, #3259ca 0%, #947ae1 100%);
+  background: url('../assets/hero-bg.png') no-repeat, linear-gradient(to right, $color-secondary 0%, $color-primary 100%);
   background-attachment: fixed;
   background-size: contain;
   background-position: top center;
