@@ -1,8 +1,8 @@
 <template>
-  <div class="work-process padding-3/1-top">
+  <div class="c-text padding-3/1-top">
     <h2 class="padding-3/1-top">From Sketching to Final Product</h2>
     <img src="../assets/iphone-mockup.png" alt="iphone mockup" class="padding-3/1-top">
-    <div class="process-color-box">
+    <div class="process-color-box c-light">
       <div class="grid grid-center">
         <div class="grid-item 2/5">Going through the design process is extremely important to me - I keep the client involved on every stage of our cooperation to make him satisfied with the final result.</div>
       </div>
@@ -12,35 +12,35 @@
       <div class="grid padding-4/1-top">
         <div class="grid-item 1/3">
           <div class="process-no">1</div>
-          <h3 class="padding-top">Meeting/Interview</h3>
-          <p>That's the perfect moment for getting to know each other, talk about your vision, goals and details of our cooperation. That's also the time for me to gather all needed information about the project</p>
+          <h3 class="padding-top c-primary">Meeting/Interview</h3>
+          <p class="font-size-small">That's the perfect moment for getting to know each other, talk about your vision, goals and details of our cooperation. That's also the time for me to gather all needed information about the project</p>
         </div>
         <div class="grid-item 1/3">
           <div class="process-no">2</div>
-          <h3 class="padding-top">Research</h3>
-          <p>I check visual identity of other companies with a similar profile and analyze them, considering in which direction I want to go and what I prefer to avoid. Research is also for collecting inspirations.</p>
+          <h3 class="padding-top c-primary">Research</h3>
+          <p class="font-size-small">I check visual identity of other companies with a similar profile and analyze them, considering in which direction I want to go and what I prefer to avoid. Research is also for collecting inspirations.</p>
         </div>
         <div class="grid-item 1/3">
           <div class="process-no">3</div>
-          <h3 class="padding-top">Sketching/Prototyping</h3>
-          <p>The next step is sketching — it's very important because you can quickly reject the bad ideas and develop these which are better, all in a fast and efficient way.</p>
+          <h3 class="padding-top c-primary">Sketching/Prototyping</h3>
+          <p class="font-size-small">The next step is sketching — it's very important because you can quickly reject the bad ideas and develop these which are better, all in a fast and efficient way.</p>
         </div>
       </div>
       <div class="grid padding-4/1-top">
         <div class="grid-item 1/3">
           <div class="process-no">4</div>
-          <h3 class="padding-top">Presenting Ideas</h3>
-          <p>I choose the best ideas and show them to you so you can decide on the early stage if this direction is something that you expect.</p>
+          <h3 class="padding-top c-primary">Presenting Ideas</h3>
+          <p class="font-size-small">I choose the best ideas and show them to you so you can decide on the early stage if this direction is something that you expect.</p>
         </div>
         <div class="grid-item 1/3">
           <div class="process-no">5</div>
-          <h3 class="padding-top">Improvements & Polishing</h3>
-          <p>When you say: "This is the one" - I know that I can start working on the improvements and make the project look perfectly.</p>
+          <h3 class="padding-top c-primary">Improvements & Polishing</h3>
+          <p class="font-size-small">When you say: "This is the one" - I know that I can start working on the improvements and make the project look perfectly.</p>
         </div>
         <div class="grid-item 1/3">
           <div class="process-no">6</div>
-          <h3 class="padding-top">Front-end support</h3>
-          <p>I can also offer my support in html/css implementation, choosing the appropriate tools according to the web standards.</p>
+          <h3 class="padding-top c-primary">Front-end support</h3>
+          <p class="font-size-small">I can also offer my support in html/css implementation, choosing the appropriate tools according to the web standards.</p>
         </div>
       </div>
     </div>
@@ -51,32 +51,20 @@
 <style scoped lang="scss">
 
 @import '~variables';
-
-h3 {
-  color: $color-primary;
-}
-
-p {
-  font-size: 0.9em;
-}
-
-.work-process {
-  color: $color-text;
-}
+@import '~utils';
 
 .process-no {
-  color: $color-energized;
-  font-size: 2.5em;
-  height: 60px;
-  width: 60px;
-  box-shadow: 4px 9px 13px -3px rgba(0,0,0,0.08);
   border-radius: 50%;
+  box-shadow: 4px 9px 13px -3px rgba(0,0,0,0.08);
+  color: $color-energized;
+  font-size: $font-size-large;
   margin: 0 auto;
+  height: $process-no-size;
+  width: $process-no-size;
 }
 
 .process-color-box {
-  background: linear-gradient(to right, $color-secondary 0%, $color-primary 100%);
-  color: white;
+  background: $bg-gradient;
   padding: 7em 0em 3em;
   position: relative;
   top: -5em;

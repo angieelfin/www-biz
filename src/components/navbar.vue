@@ -35,8 +35,8 @@
   z-index: 10;
 
   a {
-    color: white;
-    padding: 0 15px;
+    color: $color-light;
+    padding: 0 1em;
     text-decoration: none;
   }
 }
