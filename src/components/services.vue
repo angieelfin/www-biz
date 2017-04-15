@@ -1,5 +1,5 @@
 <template>
-  <div class="container services">
+  <div class="container c-dark">
     <h2 class="padding-2/1-top">What I can help you with</h2>
 
     <div class="grid padding-4/1-top">
@@ -23,10 +23,6 @@
 <style scoped lang="scss">
 
 @import '~variables';
-
-.services {
-  color: $color-text;
-}
 
 .services-icon {
   height: 165px;

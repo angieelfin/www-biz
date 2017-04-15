@@ -1,7 +1,7 @@
 <template>
-  <div class="hero padding-2/1-top">
+  <div class="hero padding-2/1-top c-light">
     <img src="../assets/hero-img.svg" alt="devices graphic" class="hero-img">
-    <h1 class="hero-title">Web solutions tailored for you</h1>
+    <h1 class="font-size-large">Web solutions tailored for you</h1>
     <img src="../assets/iphone-mockup-hero.png" alt="phone mockup" class="hero-phone-img">
   </div>
 </template>
@@ -10,21 +10,17 @@
 <style scoped lang="scss">
 
 @import '~variables';
+@import '~utils';
 
 .hero {
-  background: url('../assets/hero-bg.png') no-repeat, linear-gradient(to right, $color-secondary 0%, $color-primary 100%);
+  background: url('../assets/hero-bg.png') no-repeat, $bg-gradient;
   background-attachment: fixed;
   background-size: contain;
   background-position: top center;
-  color: white;
-  width: 100%;
-  height: 640px;
   position: relative;
   top: -70px;
-}
-
-.hero-title {
-  font-size: 44px;
+  height: 640px;
+  width: 100%;
 }
 
 .hero-img {

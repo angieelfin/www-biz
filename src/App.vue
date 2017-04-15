@@ -38,12 +38,4 @@ h2 {
   }
 }
 
-.bg-primary-muted {
-  background-color: $color-primary-muted;
-}
-
-.c-text {
-  color: $color-text;
-}
-
 </style>

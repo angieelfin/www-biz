@@ -26,11 +26,10 @@
 @import '~variables';
 
 .social-media-bar {
-  a img {
+  img {
     height: 35px;
     padding: 0 2em;
   }
 }
-
 
 </style>

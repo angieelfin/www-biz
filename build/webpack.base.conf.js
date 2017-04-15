@@ -22,6 +22,7 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'variables': path.resolve(__dirname, '../src/styles/variables.scss'),
+      'utils': path.resolve(__dirname, '../src/styles/utils.scss'),
       'buttons': path.resolve(__dirname, '../src/styles/buttons.scss'),
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src')
