@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <div class="navbar">
-      <img src="../assets/logo.svg" alt="brand logo" class="navbar-logo">
+    <div class="navbar padding-top">
+      <h4 class="c-light no-margin">Agata Kubiak</h4>
       <ul class="list-inline navbar-links">
         <li>
           <a href="">Case Studies</a>
@@ -24,6 +24,7 @@
 <style scoped lang="scss">
 
 @import '~variables';
+@import '~utils';
 
 .navbar {
   display: flex;
