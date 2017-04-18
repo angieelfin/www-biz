@@ -15,7 +15,7 @@ export default {
 @import "node_modules/hocus-pocus/hocus-pocus";
 @import '~variables';
 
-#app, h1, h2, h3, p {
+#app, h1, h2, h3, h4, h5, p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
