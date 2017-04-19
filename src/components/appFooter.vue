@@ -1,5 +1,5 @@
 <template>
-  <div class="container padding-2/1-vertical">
+  <div class="container padding-2/1-vertical compact-no-padding-horizontal">
     <div class="social-media-bar">
       <a href="https://twitter.com/angie_elfin" target="_blank">
         <img src="../assets/footer-icons/twitter-logo.svg" alt="twitter logo">
@@ -29,6 +29,14 @@
   img {
     height: 35px;
     padding: 0 2em;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .social-media-bar {
+    img {
+      padding: 0 .5em;
+    }
   }
 }
 
