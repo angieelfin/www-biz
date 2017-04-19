@@ -6,7 +6,22 @@
 
 <script>
 export default {
-  name: 'app'
+  data: function () {
+    return {
+      title: 'Agata Kubiak biz'
+    }
+  },
+  name: 'app',
+  head: {
+    title: function () {
+      return {
+        inner: this.title
+      }
+    },
+    meta: [
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    ]
+  }
 }
 </script>
 
@@ -14,6 +29,11 @@ export default {
 
 @import "node_modules/hocus-pocus/hocus-pocus";
 @import '~variables';
+
+html, body {
+  width: 100vw;
+  overflow-x: hidden;
+}
 
 #app, h1, h2, h3, h4, h5, p {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;

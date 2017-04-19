@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
+  <div class="container compact-no-padding">
     <div class="navbar padding-top">
-      <h4 class="c-light no-margin">Agata Kubiak</h4>
+      <h4 class="c-light no-margin compact-padding-bottom">Agata Kubiak</h4>
       <ul class="list-inline navbar-links">
         <li>
           <a href="">Case Studies</a>
@@ -42,8 +42,21 @@
   }
 }
 
-.navbar-logo {
-  height: 60px;
+
+@media only screen and (max-width: 568px) {
+  .navbar {
+    background: $bg-gradient;
+    flex-direction: column;
+
+    h4 {
+      font-size: 2em;
+    }
+
+    .navbar-links {
+      display: grid;
+      font-size: 1.5em;
+    }
+  }
 }
 
 </style>

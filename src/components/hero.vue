@@ -2,7 +2,7 @@
   <div class="hero padding-2/1-top c-light">
     <img src="../assets/hero-img.svg" alt="devices graphic" class="hero-img">
     <h1 class="font-size-large">Web solutions tailored for you</h1>
-    <img src="../assets/iphone-mockup-hero.png" alt="phone mockup" class="hero-phone-img">
+    <img src="../assets/iphone-mockup-hero.png" alt="phone mockup" class="hero-phone-img compact-hidden">
   </div>
 </template>
 
@@ -32,6 +32,18 @@
   position: absolute;
   top: 437px;
   right: 78%;
+}
+
+@media only screen and (max-width: 375px) {
+  .hero {
+    top: 0;
+    height: 500px;
+    background-position: center center;
+  }
+
+  .hero-img {
+    height: 170px;
+  }
 }
 
 </style>

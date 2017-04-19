@@ -8,3 +8,10 @@
   text-decoration: none;
   text-transform: uppercase;
 }
+
+
+@media only screen and (max-width: 568px) {
+  .button {
+    font-size: 1.2em;
+  }
+}
