@@ -7,6 +7,19 @@
   font-size: 1.8em;
   text-decoration: none;
   text-transform: uppercase;
+  transition: $base-transition;
+}
+
+.button-project {
+  background: $bg-gradient;
+  box-shadow: $base-box-shadow;
+  color: $color-light;
+  font-size: 1em;
+  padding: 15px 50px;
+  position: absolute;
+  top: 30%;
+  left: 2em;
+  right: 2em;
 }
 
 
