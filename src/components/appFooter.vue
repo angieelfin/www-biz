@@ -25,10 +25,16 @@
 
 @import '~variables';
 
-.social-media-bar {
+.social-media-bar a {
+  transition: $base-transition;
+
   img {
     height: 35px;
     padding: 0 2em;
+  }
+
+  &:hover {
+    opacity: .8;
   }
 }
 
