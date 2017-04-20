@@ -3,6 +3,7 @@
     <navbar></navbar>
     <hero></hero>
     <services></services>
+    <caseStudies></caseStudies>
     <workProcess></workProcess>
     <about></about>
     <contact></contact>
@@ -14,6 +15,7 @@
 import navbar from '@/components/navbar.vue'
 import hero from '@/components/hero.vue'
 import services from '@/components/services.vue'
+import caseStudies from '@/components/caseStudies.vue'
 import workProcess from '@/components/workProcess.vue'
 import about from '@/components/about.vue'
 import contact from '@/components/contact.vue'
@@ -29,6 +31,7 @@ export default {
     navbar,
     hero,
     services,
+    caseStudies,
     workProcess,
     about,
     contact,

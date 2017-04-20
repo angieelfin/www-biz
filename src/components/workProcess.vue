@@ -55,7 +55,7 @@
 
 .process-no {
   border-radius: 50%;
-  box-shadow: 4px 9px 13px -3px rgba(0,0,0,0.08);
+  box-shadow: $base-box-shadow;
   color: $color-energized;
   font-size: $font-size-large;
   margin: 0 auto;
