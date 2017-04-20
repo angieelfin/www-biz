@@ -1,5 +1,5 @@
 .button {
-  background: white;
+  background: $color-light;
   box-shadow: 24px 9px 33px -1px rgba(0,0,0,0.08);
   color: $color-primary;
   padding: 15px 90px;
@@ -8,6 +8,11 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: $base-transition;
+
+  &:hover {
+    background: $color-energized;
+    color: $color-light;
+  }
 }
 
 .button-project {
@@ -20,6 +25,11 @@
   top: 30%;
   left: 2em;
   right: 2em;
+
+  &:hover {
+    background: $bg-gradient;
+    color: $color-light;
+  }
 }
 
 
