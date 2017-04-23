@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary-muted c-dark margin-3/1-top padding-3/1-bottom">
+  <div class="bg-primary-muted c-dark margin-3/1-top padding-3/1-bottom" id="about">
     <h2 class="padding-3/1-top padding-2/1-bottom">About me</h2>
     <div class="container">
       <div class="grid grid-center">

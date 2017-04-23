@@ -1,19 +1,19 @@
 <template>
-  <div class="container compact-no-padding">
+  <div class="container compact-no-padding" id="navbar">
     <div class="navbar padding-top">
       <h4 class="c-light no-margin compact-padding-bottom">Agata Kubiak</h4>
       <ul class="list-inline navbar-links">
         <li class="navbar-link">
-          <a href="">Case Studies</a>
+          <a href="" v-scroll-to="'#case-studies'">Case Studies</a>
         </li>
         <li class="navbar-link">
-          <a href="">Work Process</a>
+          <a href="" v-scroll-to="'#work-process'">Work Process</a>
         </li>
         <li class="navbar-link">
-          <a href="">About</a>
+          <a href="" v-scroll-to="'#about'">About</a>
         </li>
         <li class="navbar-link">
-          <a href="">Contact</a>
+          <a href="" v-scroll-to="'#contact'">Contact</a>
         </li>
       </ul>
     </div>

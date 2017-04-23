@@ -15,6 +15,22 @@
   }
 }
 
+.button-small {
+  box-shadow: $base-box-shadow;
+  color: $color-energized;
+  font-size: 1em;
+  padding: 15px 60px;
+
+    &:hover {
+    background: inherit;
+    color: $color-energized;
+  }
+}
+
+.button-icon {
+  height: 1em;
+}
+
 .button-project {
   background: $bg-gradient;
   box-shadow: $base-box-shadow;

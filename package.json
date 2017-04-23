@@ -14,7 +14,8 @@
     "sass-loader": "^6.0.3",
     "vue": "^2.2.2",
     "vue-head": "^2.0.10",
-    "vue-router": "^2.3.0"
+    "vue-router": "^2.3.0",
+    "vue-scrollto": "^2.6.7"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

@@ -1,6 +1,6 @@
 <template>
   <div class="container padding-2/1-vertical compact-no-padding-horizontal">
-    <div class="social-media-bar">
+    <div class="social-media-bar margin-3/1-bottom">
       <a href="https://twitter.com/angie_elfin" target="_blank">
         <img src="../assets/footer-icons/twitter-logo.svg" alt="twitter logo">
       </a>
@@ -17,6 +17,10 @@
         <img src="../assets/footer-icons/yt-logo.svg" alt="youtube logo">
       </a>
     </div>
+    <a href="" v-scroll-to="'#navbar'" class="button button-small">
+      top
+      <img src="../assets/arrow-up.svg" class="button-icon">
+    </a>
   </div>
 </template>
 
@@ -24,6 +28,7 @@
 <style scoped lang="scss">
 
 @import '~variables';
+@import '~buttons';
 
 .social-media-bar a {
   transition: $base-transition;
