@@ -7,7 +7,7 @@
         <div class="grid-item 2/5 compact-1/1">Going through the design process is extremely important to me - I keep the client involved on every stage of our cooperation to make him satisfied with the final result.</div>
       </div>
     </div>
-    <h2 class="padding-2/1-top compact-padding-1/3-top">My Work Process</h2>
+    <h2 class="padding-2/1-top compact-padding-1/3-top" id="work-process">My Work Process</h2>
     <div class="container">
       <div class="grid padding-4/1-top compact-padding-top">
         <div class="grid-item 1/3 compact-1/1">

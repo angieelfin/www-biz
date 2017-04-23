@@ -1,5 +1,5 @@
 <template>
-  <div class="contact c-light">
+  <div class="contact c-light" id="contact">
     <h2 class="padding-3/1-vertical">Interested in working together?</h2>
     <a href="mailto:agatakubiak.dev@gmail.com" class="button">Contact me!</a>
   </div>
