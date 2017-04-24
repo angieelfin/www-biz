@@ -19,10 +19,10 @@
   box-shadow: $base-box-shadow;
   color: $color-energized;
   font-size: 1em;
-  padding: 15px 60px;
+  padding: 10px 50px;
 
-    &:hover {
-    background: inherit;
+  &:hover {
+    background: $color-light;
     color: $color-energized;
   }
 }
@@ -32,6 +32,22 @@
 }
 
 .button-project {
+  background: $bg-gradient;
+  box-shadow: $base-box-shadow;
+  color: $color-light;
+  font-size: 1em;
+  padding: 15px 70px;
+  display: inline-block;
+  margin-top: .7em;
+
+  &:hover {
+    background: $bg-gradient;
+    color: $color-light;
+  }
+}
+
+
+.button-project-card {
   background: $bg-gradient;
   box-shadow: $base-box-shadow;
   color: $color-light;

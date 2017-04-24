@@ -24,6 +24,7 @@ module.exports = {
       'variables': path.resolve(__dirname, '../src/styles/variables.scss'),
       'utils': path.resolve(__dirname, '../src/styles/utils.scss'),
       'buttons': path.resolve(__dirname, '../src/styles/buttons.scss'),
+      'project': path.resolve(__dirname, '../src/styles/project.scss'),
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src')
     }
