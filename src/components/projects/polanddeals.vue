@@ -1,9 +1,10 @@
 <template>
   <div>
+    <backButton></backButton>
     <div class="project-header padding-2/1-top c-light">
       <img src="../../assets/projects/polanddeals.png" alt="devices graphic" class="header-img">
     </div>
-    <div class="padding-top">
+    <div>
       <h2>Poland Deals</h2>
       <h3>App UI Design, Branding</h3>
       <a href="https://play.google.com/store/apps/details?id=eu.ekinnolab.krakowdeals" target="_blank" class="button button-project">
@@ -53,11 +54,13 @@
 
 <script>
 
+import backButton from '@/components/backButton.vue'
 import contact from '@/components/contact.vue'
 import appFooter from '@/components/appFooter.vue'
 
 export default {
   components: {
+    backButton,
     contact,
     appFooter
   }

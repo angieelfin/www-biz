@@ -1,12 +1,10 @@
 <template>
   <div>
-  <a @click="goBack()">
-   Back
-  </a>
+    <backButton></backButton>
     <div class="project-header padding-2/1-top c-light">
       <img src="../../assets/projects/dgtmarket.png" alt="devices graphic" class="header-img">
     </div>
-    <div class="padding-top">
+    <div>
       <h2>DGTMARKET</h2>
       <h3>Landing Page Redesign</h3>
     </div>
@@ -55,18 +53,15 @@
 
 <script>
 
+import backButton from '@/components/backButton.vue'
 import contact from '@/components/contact.vue'
 import appFooter from '@/components/appFooter.vue'
 
 export default {
   components: {
+    backButton,
     contact,
     appFooter
-  },
-  methods: {
-    goBack () {
-      window.history.back()
-    }
   }
 }
 </script>

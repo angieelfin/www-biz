@@ -1,9 +1,10 @@
 <template>
   <div>
+    <backButton></backButton>
     <div class="project-header padding-2/1-top c-light">
       <img src="../../assets/projects/trug.png" alt="devices graphic" class="header-img">
     </div>
-    <div class="padding-top">
+    <div>
       <h2>TRUG</h2>
       <h3>Landing Page Redesign</h3>
       <a href="http://trug.pl/" target="_blank" class="button button-project">
@@ -57,9 +58,11 @@
 
 import contact from '@/components/contact.vue'
 import appFooter from '@/components/appFooter.vue'
+import backButton from '@/components/backButton.vue'
 
 export default {
   components: {
+    backButton,
     contact,
     appFooter
   }

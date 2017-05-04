@@ -1,9 +1,10 @@
 <template>
   <div>
+    <backButton></backButton>
     <div class="project-header padding-2/1-top c-light">
       <img src="../../assets/projects/branding.png" alt="devices graphic" class="header-img">
     </div>
-    <div class="padding-top">
+    <div>
       <h2>Branding</h2>
       <h3>Logo & Business Cards Collection</h3>
     </div>
@@ -37,11 +38,13 @@
 
 <script>
 
+import backButton from '@/components/backButton.vue'
 import contact from '@/components/contact.vue'
 import appFooter from '@/components/appFooter.vue'
 
 export default {
   components: {
+    backButton,
     contact,
     appFooter
   }

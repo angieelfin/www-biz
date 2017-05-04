@@ -58,7 +58,7 @@ export default new Router({
       component: trug
     },
     {
-      path: '/ragnarson',
+      path: '/10ragnarson',
       name: 'ragnarson',
       component: ragnarson
     },
