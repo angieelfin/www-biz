@@ -1,5 +1,8 @@
 <template>
   <div>
+  <a @click="goBack()">
+   Back
+  </a>
     <div class="project-header padding-2/1-top c-light">
       <img src="../../assets/projects/dgtmarket.png" alt="devices graphic" class="header-img">
     </div>
@@ -59,6 +62,11 @@ export default {
   components: {
     contact,
     appFooter
+  },
+  methods: {
+    goBack () {
+      window.history.back()
+    }
   }
 }
 </script>
