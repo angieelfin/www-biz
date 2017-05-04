@@ -23,7 +23,7 @@ export default {
   data: function () {
     return {
       projects: [
-        {name: 'Poland Deals', id: 'polanddeals', url: ''},
+        {name: 'Poland Deals', id: 'polanddeals'},
         {name: 'DGTMARKET', id: 'dgtmarket'},
         {name: 'GOTAR', id: 'gotar'},
         {name: '[ART/ICLE]', id: 'article'},
@@ -83,6 +83,7 @@ export default {
 .project-thumbnail-img {
   position: relative;
   height: 100%;
+  width: 100%;
 }
 
 .button-project-card {
