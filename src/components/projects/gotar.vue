@@ -7,7 +7,7 @@
     <div>
       <h2>GOTAR</h2>
       <h3>Branding & Webdesign</h3>
-      <a href="http://gotar.info/" class="button button-project">
+      <a href="http://gotar.info/" target="_blank" class="button button-project">
         Go to website
         <img src="../../assets/arrow-right.svg" class="button-icon">
       </a>
