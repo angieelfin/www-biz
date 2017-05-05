@@ -17,7 +17,10 @@
 
 .header-img {
   position: absolute;
+  left: 0;
+  right: 0;
   bottom: -1px;
+  margin: 0 auto;
 }
 
 .study-icon {
@@ -26,4 +29,14 @@
 
 .project-img {
   width: 100%;
+}
+
+@media only screen and (max-width: 414px) {
+  .project-header {
+    height: 350px;
+  }
+
+  .header-img {
+    width: 100%;
+  }
 }

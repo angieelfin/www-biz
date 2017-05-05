@@ -1,5 +1,5 @@
 <template>
-  <div class="container c-dark">
+  <div class="container c-dark padding-2/1-bottom">
     <h2 class="padding-2/1-top">What I can help you with</h2>
 
     <div class="grid padding-4/1-top">

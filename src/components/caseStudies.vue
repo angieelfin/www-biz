@@ -1,5 +1,5 @@
 <template>
-  <div class="container padding-4/1-top" id="case-studies">
+  <div class="container padding-2/1-top" id="case-studies">
     <h2>Case Studies</h2>
     <div class="grid padding-3/1-top">
       <div class="grid-item 1/3 compact-1/1" v-for="project in projects">

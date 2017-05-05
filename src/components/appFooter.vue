@@ -17,7 +17,9 @@
         <img src="~@/assets/footer-icons/yt-logo.svg" alt="youtube logo">
       </a>
     </div>
-    <a href="" v-scroll-to="'#navbar'" class="button button-small">
+    <a class="button button-small" v-scroll-to="{
+      el:'.section-top',
+      easing: 'linear'}">
       top
       <img src="~@/assets/arrow-up.svg" class="button-icon">
     </a>
@@ -44,9 +46,9 @@
 }
 
 @media only screen and (max-width: 568px) {
-  .social-media-bar {
+  .social-media-bar a {
     img {
-      padding: 0 .5em;
+      padding: 0 10px;
     }
   }
 }

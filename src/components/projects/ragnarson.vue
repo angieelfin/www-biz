@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="section-top">
     <backButton></backButton>
     <div class="project-header padding-2/1-top c-light">
       <img src="../../assets/projects/10ragnarson.png" alt="devices graphic" class="header-img">

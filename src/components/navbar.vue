@@ -1,5 +1,5 @@
 <template>
-  <div class="container compact-no-padding" id="navbar">
+  <div class="container compact-no-padding section-top">
     <div class="navbar padding-top">
       <h4 class="c-light no-margin compact-padding-bottom">Agata Kubiak</h4>
       <ul class="list-inline navbar-links">
