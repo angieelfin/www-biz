@@ -28,10 +28,10 @@
             <ul class="padding-top text-left">
               <li>explain how the application works and show the process both for clients & experts</li>
               <li>show the benefits separately for clients and experts</li>
-              <li> include the business goal</li>
+              <li>include the business goal</li>
               <li>design custom hero graphic & icons associated with the new technologies & data science</li>
-              <li>put the special impact on the CTAs</li>
-              <li>making everything readable & understandable by taking care about the clean design</li>
+              <li>put the special impact on Call To Action buttons</li>
+              <li>making everything readable & understandable by taking care of the clean design</li>
               <li>compose the calm color palette referring to logo and industry</li>
             </ul>
             <p class="text-left no-margin">On the App screens:</p>

@@ -4,8 +4,8 @@
     <div class="container">
       <div class="grid grid-center">
         <div class="grid-item 3/5 compact-1/1">
-          <p>I’m the designer based in beautiful Gdańsk in Poland with the experience in many different fields of design. My main scope is designing User Interfaces with the special care of User Experience, but I'm also passionate about graphic design, illustrations (including both traditional and digital), branding and prints.</p>
-          <p>I am well organised, fast, and deadline oriented. I’m serious about the design tasks and goals but it's also a great fun for me. I'll do my best to create an awesome product for you!</p>
+          <p>I’m the designer based in beautiful Gdańsk in Poland. I've got the experience in many different fields of design. My main scope is designing User Interfaces with the special care of User Experience, but I'm also passionate about graphic design, illustrations (including both traditional and digital), branding and prints.</p>
+          <p>I am well organised, fast, and deadline oriented. I’m serious about the design tasks but it's also a great fun for me. Be sure that I'll do my best to create an awesome product for you!</p>
         </div>
       </div>
 

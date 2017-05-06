@@ -18,7 +18,7 @@
           <div class="grid-item 1/2 compact-1/1 text-left">
             <img src="../../assets/challenges.svg" alt="icon challenges" class="study-icon">
             <h3 class="d-inline padding-left">Challenges</h3>
-            <p class="padding-top text-left white-space">TRUG stands for Tricity User Ruby Group - it's the group of people that meet every month in Sopot to discuss about programming (mainly in Ruby language, but not only). The task was to redesign the existing logo and website to fit current standards & design trends.</p>
+            <p class="padding-top text-left white-space">TRUG stands for Tricity Ruby User Group - it's the group of people that meet every month in Sopot to discuss about programming (mainly in Ruby language, but not only). The task was to redesign the existing logo and website to fit current standards & design trends.</p>
           </div>
           <div class="grid-item 1/2 compact-1/1">
             <img src="../../assets/solutions.svg" alt="icon solutions" class="study-icon">

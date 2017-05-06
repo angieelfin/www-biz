@@ -29,7 +29,7 @@
               <li>the logo is associated with the city architecture & deal symbol, presented in a form of minimal linear icon with two colors chosen for Kraków. If the app is used in other cities in the future, each city can have its own colors</li>
               <li>the UI is simple, it emphasizes the content but not in an overwhelming way. Navigation and CTA buttons are in the color of calm red, so they are visible and easy do identify. To keep the consistency with the logo - I chose the linear icons for the UI and designed the custom linear illustrations and maps</li>
               <li>the main impact is put on easy navigation, intuitive flow, an appropriate way of exposing the content</li>
-              <li>the brand style guide is divided into chapters - each chapter discovers a different topic, eg. Logo, Color System, Typography, UI Elements. All is presented in an easy way including visual examples with the necessary descriptions</li>
+              <li>the brand style guide is divided into chapters - each chapter discovers a different topic, eg. Logo, Color System, Typography, UI Elements. All is presented in an simple way including visual examples with the necessary descriptions</li>
           </ul>
           <small class="padding-left c-dark">/In cooperation with: Małgorzata Bartoszewicz</small>
           </div>

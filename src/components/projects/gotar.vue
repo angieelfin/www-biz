@@ -19,7 +19,7 @@
           <div class="grid-item 1/2 compact-1/1 text-left">
             <img src="../../assets/challenges.svg" alt="icon challenges" class="study-icon">
             <h3 class="d-inline padding-left">Challenges</h3>
-            <p class="padding-top text-left white-space"> Design simple, intuitive & informative website for a small company, as long with the logo and business cards.</p>
+            <p class="padding-top text-left white-space"> Design simple, intuitive & informative website for a small company, as well as the logo and business cards.</p>
           </div>
           <div class="grid-item 1/2 compact-1/1">
             <img src="../../assets/solutions.svg" alt="icon solutions" class="study-icon">
@@ -33,7 +33,7 @@
       </div>
       <div class="bg-primary-muted padding-3/1-vertical margin-2/1-top">
         <h2>Tools used</h2>
-        <h3 class="padding-top">Affinity Designer / Elixir / Phoenix / slim / sass / hocus pocus / github</h3>
+        <h3 class="padding-top">Affinity Designer / Elixir / Phoenix / slim / sass / hocus-pocus CSS Framework / GIT</h3>
       </div>
       <div class="container">
         <img src="../../assets/projects/gotar/1.png" class="project-img" alt="logo">

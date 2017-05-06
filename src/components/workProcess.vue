@@ -13,7 +13,7 @@
         <div class="grid-item 1/3 compact-1/1">
           <div class="process-no">1</div>
           <h3 class="padding-top c-primary">Meeting/Interview</h3>
-          <p class="font-size-small">That's the perfect moment for getting to know each other, talk about your vision, goals and details of our cooperation. That's also the time for me to gather all needed information about the project</p>
+          <p class="font-size-small">That's the perfect moment for getting to know each other, talk about your vision, goals and details of our cooperation. That's also the time for gathering all needed information about the project.</p>
         </div>
         <div class="grid-item 1/3 compact-1/1">
           <div class="process-no">2</div>
@@ -40,7 +40,7 @@
         <div class="grid-item 1/3 compact-1/1">
           <div class="process-no">6</div>
           <h3 class="padding-top c-primary">Front-end support</h3>
-          <p class="font-size-small">I can also offer my support in html/css implementation, choosing the appropriate tools according to the web standards.</p>
+          <p class="font-size-small">I can also offer my support in HTML/CSS implementation, choosing the appropriate tools according to the web standards.</p>
         </div>
       </div>
     </div>

@@ -23,7 +23,6 @@
             <ul class="padding-top text-left">
               <li>keep the consistency with the existing logo and key visuals</li>
               <li>design custom illustrations referring to the current trends in graphic design</li>
-              <li>design custom illustrations referring to the current trends in graphic design</li>
               <li>add animations and visual effects to involve the user and catch his attention</li>
               <li>take care of Responsive Web Design</li>
               <li>divide the content into independent sections to make it more readable</li>
@@ -34,7 +33,7 @@
       </div>
       <div class="bg-primary-muted padding-3/1-vertical margin-2/1-top">
         <h2>Tools used</h2>
-        <h3 class="padding-top">Affinity Designer / webpack2/sass / Bootstrap / ScrollMagic.js / svg animations / Bitbucket / sketchbook</h3>
+        <h3 class="padding-top">Affinity Designer / webpack2 / sass / Bootstrap / ScrollMagic.js / svg animations / Bitbucket / sketchbook</h3>
       </div>
       <div class="container">
         <img src="../../assets/projects/dgt/1.png" class="project-img" alt="devices showcase">
