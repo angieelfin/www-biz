@@ -8,7 +8,7 @@
 export default {
   data: function () {
     return {
-      title: 'Agata Kubiak biz'
+      title: 'Agata Kubiak | Business Portfolio'
     }
   },
   name: 'app',
@@ -20,6 +20,9 @@ export default {
     },
     meta: [
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    ],
+    link: [
+      { rel: 'icon', href: 'static/favicon.ico' }
     ]
   }
 }

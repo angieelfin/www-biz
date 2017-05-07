@@ -37,6 +37,7 @@
 
 .navbar-link a {
   color: $color-light;
+  display: block;
   padding: 0 1em;
   position: relative;
   text-decoration: none;
@@ -72,8 +73,8 @@
       font-size: 2em;
     }
 
-    .navbar-links {
-      display: grid;
+    .navbar-link {
+      display: block;
       font-size: 1.5em;
     }
   }

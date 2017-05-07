@@ -9,11 +9,7 @@
         </div>
       </div>
 
-      <div class="grid padding-4/1-top compact-padding-top">
-        <div class="grid-item 1/3 compact-1/1 compact-padding-top">
-          <span>1.5 year</span>
-          <span>year of Experience</span>
-        </div>
+      <div class="grid grid-center padding-4/1-top compact-padding-top">
         <div class="grid-item 1/3 compact-1/1 compact-padding-top">
           <span>25+</span>
           <span>Design Projects</span>
