@@ -19,11 +19,21 @@ export default {
       }
     },
     meta: [
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { property: 'og:title', content: 'Agata Kubiak' },
+      { property: 'og:description', content: 'Business Portfolio with Services such as UX/UI Design, Branding and Web Development' }
     ],
     link: [
       { rel: 'icon', href: 'static/favicon.ico' }
     ]
+  },
+  methods: {
+    getAsyncData: function () {
+      var self = this
+      window.setTimeout(function () {
+        self.$emit('updateHead')
+      }, 3000)
+    }
   }
 }
 </script>
